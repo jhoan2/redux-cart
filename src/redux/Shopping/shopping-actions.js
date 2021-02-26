@@ -18,9 +18,9 @@ export const removeFromCart = (itemID) => {
     }
 }
 
-export const adjustQty = (itemId, qty) => {
+export const adjustItemQty = (itemId, qty) => {
     return {
-        type: actionTypes.ADJUST_QTY,
+        type: actionTypes.ADJUST_ITEM_QTY,
         payload: {
             id: itemId,
             qty

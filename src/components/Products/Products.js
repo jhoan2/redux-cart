@@ -16,6 +16,7 @@ const Products = ({ products }) => {
   );
 };
 
+//named the state shop here so that it gets the inital state just from shopping reducer.
 const mapStateToProps = (state) => {
   return {
     products: state.shop.products,
